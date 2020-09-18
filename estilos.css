@@ -5,6 +5,7 @@
   --negro: #000;
   --rosa: #E97171;
   --verde: #1FA692;
+  --verde-oscuro: #198a79;
 }
 
 body {
@@ -17,14 +18,14 @@ body {
   background-image: url("figura-decorativa.svg");
   background-position: right top;
   background-repeat: no-repeat;
-  background-size: calc(max(28em, 50%)) auto;
+  background-size: calc(max(28em, 45%)) auto;
   margin: 0 auto;
-  max-width: 75em;
+  max-width: 70em;
   padding: 2em 4em;
 }
 
 .titulo {
-  font-size: 8em;
+  font-size: 7em;
   font-weight: bold;
   margin-bottom: 0.5em;
   max-width: 5em;
@@ -43,10 +44,14 @@ body {
   background-color: var(--verde);
   color: var(--blanco);
   display: inline-block;
-  font-size: 2.5em;
+  font-size: 2.25em;
   font-weight: bold;
   padding: .75em 3em;
   text-transform: uppercase;
+}
+
+.boton:hover {
+  background-color: var(--verde-oscuro);
 }
 
 .info {
@@ -54,7 +59,7 @@ body {
 }
 
 .info.item {
-  font-size: 2.5em;
+  font-size: 2.25em;
   font-weight: bold;
   margin-right: 3em;
   margin-top: 1.5em;
