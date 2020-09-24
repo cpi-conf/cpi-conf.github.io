@@ -40,6 +40,11 @@ body {
   transform: translateX(-0.75em);
 }
 
+.cronograma {
+  max-width: 100%;
+  margin-top: 2rem;
+}
+
 .boton {
   background-color: var(--verde);
   color: var(--blanco);
